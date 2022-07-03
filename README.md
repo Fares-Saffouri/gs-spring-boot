@@ -7,3 +7,8 @@
 
 # run
 docker run -d -p 8080:8080 gs-boot
+# push to docker hub
+
+docker tag gs-boot fares111/gs-boot:1.0.0<br/>
+docker push fares111/gs-boot<br/>
+![image](https://user-images.githubusercontent.com/70641137/177053248-1dde5023-aba6-4620-8f14-8755b86fc099.png)
